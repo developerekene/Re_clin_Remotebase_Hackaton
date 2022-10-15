@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --baseColorFour: #ffffff;
+}
+
+.mainDiv{
+    background-color: var(--baseColorFour);
+    display: flex;
+    padding-left: 111px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
