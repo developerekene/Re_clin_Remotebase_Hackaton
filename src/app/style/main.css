@@ -1,17 +1,116 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --baseColorFour: #ffffff;
+:root {
+  --baseColorFour: #ffffff;
+  --baseColorOne: #1e1e1e;
+  --baseColorTwo: #47c92c;
+  --baseColorThree: #000000;
+  --baseColorFive: #1e1e1e;
+  --baseColorSix: #333333;
 }
 
-.mainDiv{
-    background-color: var(--baseColorFour);
+.mainDiv {
+  background-color: var(--baseColorFour);
+  display: flex;
+  padding-left: 111px;
+  padding-right: 100px;
+  justify-content: space-between;
+  height: 136px;
+  align-items: center;
+  box-shadow: 0px 4px 35px -2px rgba(143, 143, 143, 0.47);
+}
+
+.logoDiv .img{
+    margin-right: 14px;
+}
+
+.logoDiv a {
+  display: flex;
+  justify-content: center;
+  color: var(--baseColorThree);
+  text-decoration: none;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainLinks {
+  margin-right: 46px;
+}
+
+.mainLinks ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+  font-style: normal;
+}
+
+.mainLinks ul li {
+  list-style: none;
+}
+
+.mainLinks ul li a {
+    text-decoration: none;
+    color: var(--baseColorOne);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.mainLinks .img{
+    margin-left: 4px;
+}
+
+.secondLinks{
+
+}
+
+.secondLinks ul{
+    list-style: none;
     display: flex;
-    padding-left: 111px;
-    padding-right: 100px;
-    justify-content: space-between;
+    gap: 46px;
+}
+
+.secondLinks ul li{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondLinks ul li a{
+    text-decoration: none;
+    color: var(--baseColorOne);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.secondLinks .en{
+    font-size: 18px;
+    align-self: center;
+    margin-bottom: -80px;
+}
+
+.secondLinks .img{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.secondLinks .signup{
+    background-color: var(--baseColorTwo);
+    color: var(--baseColorFour);
+    font-size: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 4px;
 }

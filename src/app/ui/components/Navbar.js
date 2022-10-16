@@ -1,35 +1,41 @@
 import React from "react";
+import ImageComponent from "./ImageComponent";
 
 const Navbar = () => {
   return (
     <div className="mainDiv">
-      <div>
+      <div className="logoDiv">
         <a href="/">
-          <img src={require("../../images/logo.png")} />
+          <img className="img" src={require("../../images/logo.png")} />
           <h2>Reclin</h2>
         </a>
       </div>
-      <div>
-        <div>
+      <div className="links">
+        <div className="mainLinks">
           <ul>
             <li>
               <a href="/aboutus">About us</a>
+              <img className="img" src={require("../../images/dropdown.png")} />
             </li>
             <li>
-              <a>Services</a>
+              <a href="#">Services</a>
+              <img className="img" src={require("../../images/dropdown.png")} />
             </li>
           </ul>
         </div>
-        <div>
+        <div className="secondLinks">
           <ul>
             <li>
-              <a>EN</a>
+              <img className="img" src={require("../../images/global.png")} />
+              <a className="en">EN</a>
             </li>
             <li>
               <a href="/login">Login</a>
             </li>
             <li>
-              <a href="/signup">Sign Up</a>
+              <a href="/signup" className="signup">
+                Sign Up
+              </a>
             </li>
           </ul>
         </div>
