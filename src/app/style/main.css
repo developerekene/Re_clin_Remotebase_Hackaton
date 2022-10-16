@@ -16,6 +16,8 @@
   --baseColorSix: #333333;
 }
 
+/* -----------------------------------HOME----------------------------------- */
+
 .mainDiv {
   background-color: var(--baseColorFour);
   display: flex;
@@ -69,10 +71,6 @@
 
 .mainLinks .img{
     margin-left: 4px;
-}
-
-.secondLinks{
-
 }
 
 .secondLinks ul{
@@ -185,4 +183,39 @@
 .homeMainTwo .imgTwo{
     position: absolute;
     right: 10px;
+}
+
+/* -----------------------------------LOGIN----------------------------------- */
+
+.loginDiv{
+    align-self: center;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.or{
+    display: flex;
+    /* margin-top: 16px;
+    margin-bottom: 24px; */
+    align-self: center;
+    margin: 16px auto;
+    width: 80%
+}
+
+.google{
+    display: flex;
+    align-self: center;
+    margin: auto;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup{
+    display: block;
+    margin: auto;
+    width: 30%;
 }
