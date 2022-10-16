@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -113,4 +116,50 @@
     padding-top: 11px;
     padding-bottom: 11px;
     border-radius: 4px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+}
+
+.homeMain{
+    margin-left: 100px;
+    margin-top: 125px;
+    width: 625px;
+}
+
+.homeMain h2{
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Satoshi';
+}
+
+.homeMain .colorToGreen{
+    color: var(--baseColorTwo);
+}
+
+.homeMain p{
+    margin-top: 32px;
+    font-family: 'Satoshi';
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 200px;
+}
+
+.mainButton{
+    width: 350px;
+    height: 70px;
+    color: white;
+    background-color: var(--baseColorTwo);
+    border-width: 0px;
+    border-radius: 8px;
+    margin-top: 52px;
+    margin-bottom: 113px;
+}
+
+.mainButton h4{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Satoshi';
 }
