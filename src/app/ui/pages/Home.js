@@ -1,5 +1,4 @@
 import React from "react";
-import ButtonComponent from "../components/ButtonComponent";
 
 const Home = () => {
   return (
@@ -15,6 +14,11 @@ const Home = () => {
         <button className="mainButton">
           <h4>Get Started for free</h4>
         </button>
+      </div>
+      <div className="homeMainTwo">
+        <img className="imgOne" src={require('../../images/Polygon.png')}/>
+        <img className="imgTwo" src={require('../../images/trash-bags-removebg-preview.png')}/>
+
       </div>
       <div></div>
     </div>
