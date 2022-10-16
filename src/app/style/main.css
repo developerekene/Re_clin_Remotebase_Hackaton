@@ -145,6 +145,7 @@
     font-size: 24px;
     font-weight: 700;
     padding-right: 200px;
+    line-height: 150%;
 }
 
 .mainButton{
@@ -156,10 +157,32 @@
     border-radius: 8px;
     margin-top: 52px;
     margin-bottom: 113px;
+    cursor: pointer;
+}
+
+.mainButton:hover{
+    background-color: var(--baseColorThree);
+    color: var(--baseColorFour);
+    transition: 1.5s;
 }
 
 .mainButton h4{
     font-weight: 500;
     font-size: 30px;
     font-family: 'Satoshi';
+}
+
+.homeMainTwo{
+    width: 700px;
+    height: 650px;
+}
+
+.homeMainTwo .imgOne{
+    position: absolute;
+    right: 0px;
+}
+
+.homeMainTwo .imgTwo{
+    position: absolute;
+    right: 10px;
 }
